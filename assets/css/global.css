@@ -12,7 +12,7 @@ body{
 header{
   position: fixed;
   top: 0;
-  width: 100vw;
+  width: 100%;
   height: auto;
   background-color: #000;
   border-bottom: 3px solid #FEBD59;
@@ -35,15 +35,15 @@ header{
 
 header nav ul{
   display: flex;
-  font-size: 16px;
+  font-size: 24px;
   list-style: none;
 }
 
-a{
+header nav ul a{
   text-decoration: none;
   color: #FEBD59;
   display: block;
-  padding: 10px;
+  padding: 30px;
 }
 
 main{
@@ -70,7 +70,7 @@ main{
 
 footer{
   position: fixed;
-  width: 100vw;
+  width: 100%;width: 100%;
   height: auto;
   background-color: #000;
   border-top: 3px solid #FEBD59;
@@ -136,12 +136,12 @@ footer .p-path img{
   }
 
   #nav.active #menu{
-    font-size: 24px;
+    font-size: 30px;
     right: 8px;
   }
 
   #nav.active #menu a{
-    padding: 20px;
+    padding: 30px;
   }
   
 }
