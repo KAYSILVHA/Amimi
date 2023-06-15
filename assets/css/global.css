@@ -55,7 +55,7 @@ main{
   display: none;
   background-color: transparent;
   border: none;
-  width: 80px;
+  width: 70px;
   height: 70px;
 }
 
@@ -67,63 +67,6 @@ main{
 #nav ul{
   display: none;
 }
-@media (max-width: 1024px){
-  #btn-mobile{
-    display: block;
-  }
-  #menu{
-    position: absolute;
-  }
-
-  #nav.active #menu{
-    z-index: 1000;
-    right: 5px;
-
-    display: flex;
-    flex-direction: column;
-    background-color: #000;
-    
-  }
-  #nav.active #menu li{
-    border: 1px solid #FEBD59;
-  }
-}
-
-@media (max-width: 250px){
-  header{
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
-    width: 100%;
-  }
-  #btn-mobile{
-    display: block;
-  }
-  #menu{
-    position: absolute;
-  }
-
-  #nav.active #menu{
-    z-index: 1000;
-    right: 5px;
-
-    display: flex;
-    flex-direction: column;
-    background-color: #000;
-    
-  }
-  #nav.active #menu li{
-    border: 1px solid #FEBD59;
-  }
-
-  footer{
-    width: 100%;
-  }
-}
-
-
-
-
 
 footer{
   position: fixed;
@@ -157,4 +100,95 @@ footer .p-path img{
 
 .p-path.cheked img{
   opacity: .5;
+}
+
+
+
+
+@media (max-width: 1280px){
+  #btn-mobile{
+    display: block;
+  }
+  #menu{
+    position: absolute;
+  }
+
+  #nav.active #menu{
+    z-index: 1000;
+    right: 5px;
+
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
+    border: 1px solid #FEBD59;
+    
+  }
+  #nav.active #menu li{
+    border: 1px solid #FEBD59;
+  }
+}
+
+
+@media (min-width: 600px){
+  #btn-mobile{
+    display: block;
+    width: 80px;
+  }
+
+  #nav.active #menu{
+    font-size: 24px;
+    right: 8px;
+  }
+
+  #nav.active #menu a{
+    padding: 20px;
+  }
+  
+}
+
+@media (max-width: 250px){
+  header{
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+  }
+  #btn-mobile{
+    display: block;
+    width: 40px;
+    height: 40px;
+
+  }
+  #menu{
+    position: absolute;
+  }
+
+  #nav.active #menu{
+    z-index: 1000;
+    right: 5px;
+
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
+    
+  }
+
+  footer{
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    border-radius: none;
+    border: 1px solid #FEBD59;
+  }
+  .p-path{
+    width: 150px;
+    height: 100px;
+  }
+  footer .p-path img{
+    width: 100%;
+    height: 100%;
+  }
+  
 }
