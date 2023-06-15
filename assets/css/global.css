@@ -68,3 +68,8 @@ footer .path img{
   width: 30px;
   height: 31px;
 }
+
+
+.p-path.cheked img{
+  opacity: .5;
+}
