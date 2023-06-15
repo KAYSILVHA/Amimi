@@ -47,7 +47,7 @@ a{
 }
 
 main{
-  padding: 150px 10px;
+  padding: 100px 10px;
   margin: 30px;
 
 }
@@ -60,7 +60,7 @@ main{
 #nav ul{
   display: none;
 }
-@media (max-width: 800px){
+@media (max-width: 1024px){
   #btn-mobile{
     display: block;
   }
@@ -108,8 +108,8 @@ footer .path{
 }
 
 footer .path img{
-  max-width: 100px;
-  max-height: 100px;
+  min-width: 50px;
+  min-height: 50px;
 }
 
 
