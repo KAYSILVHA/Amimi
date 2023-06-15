@@ -13,19 +13,19 @@ header{
   position: fixed;
   top: 0;
   width: 100vw;
-  height: 15vh;
+  height: auto;
   background-color: #000;
-  border-bottom: 1px solid #FEBD59;
+  border-bottom: 3px solid #FEBD59;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
+  padding: 20px;
 }
 
 
 .logo {
-  width: 80px;
-  height: 65px;
+  width: 60px;
+  height: 60px;
 }
 
 .logo img{
@@ -36,7 +36,6 @@ header{
 header nav ul{
   display: flex;
   font-size: 16px;
-  gap: 10px;
   list-style: none;
 }
 
@@ -44,26 +43,44 @@ a{
   text-decoration: none;
   color: #FEBD59;
   display: block;
-  padding: 20px;
+  padding: 10px;
 }
 
 main{
   padding: 100px 10px;
   margin: 30px;
+
 }
 #btn-mobile{
   display: none;
+  background-color: transparent;
+  border: none;
+  width: 40px;
 }
-
-/*@media (max-width: 600px){
+#nav ul{
+  display: none;
+}
+@media (max-width: 800px){
   #btn-mobile{
     display: block;
   }
+  #menu{
+    position: absolute;
+  }
 
   #nav.active #menu{
+    z-index: 1000;
+    right: 5px;
+
     display: flex;
+    flex-direction: column;
+    background-color: #000;
+    
   }
-}*/
+  #nav.active #menu li{
+    border: 1px solid #FEBD59;
+  }
+}
 
 
 
@@ -72,14 +89,14 @@ main{
 footer{
   position: fixed;
   width: 100vw;
-  height: 15vh;
+  height: auto;
   background-color: #000;
-  border-top: 1px solid #FEBD59;
+  border-top: 3px solid #FEBD59;
   display: flex;
   justify-content: space-between;
   align-items: center;
   bottom: 0;
-  border-radius: 20px 20px 0px 0px;
+  border-radius: 30px 30px 0px 0px;
 }
 
 footer .path{

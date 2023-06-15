@@ -1,4 +1,4 @@
-const btnMobilie = document.getElementById('btn-mobile');
+const btnMobile = document.getElementById('btn-mobile');
 
 function toggleMenu(){
   const btnMobilie = document.getElementById('nav');
