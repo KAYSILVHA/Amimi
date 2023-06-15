@@ -13,7 +13,7 @@ header{
   position: fixed;
   top: 0;
   width: 100vw;
-  height: 30vh;
+  height: auto;
   background-color: #000;
   border-bottom: 1px solid #FEBD59;
   display: flex;
@@ -24,17 +24,18 @@ header{
 
 
 .logo {
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 65px;
 }
 
-.logo img {
+.logo img{
   width: 100%;
+  height: 100%;
 }
 
 header nav ul{
   display: flex;
-  font-size: 12px;
+  font-size: 16px;
   gap: 10px;
   list-style: none;
 }
@@ -55,7 +56,7 @@ main{
 footer{
   position: fixed;
   width: 100vw;
-  height: 20vh;
+  height: auto;
   background-color: #000;
   border-top: 1px solid #FEBD59;
   display: flex;
@@ -75,8 +76,8 @@ footer .path{
 }
 
 footer .path img{
-  width: 60px;
-  height: 61px;
+  max-width: 70px;
+  max-height: 70px;
 }
 
 
