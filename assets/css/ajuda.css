@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+main{
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2vh;
+}
+
+.info{
+  width: 70vw;
+  height: 50vh;
+  border-radius: 20px;
+  border: 5px solid #FEBD59;
+}

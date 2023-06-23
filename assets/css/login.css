@@ -1,0 +1,107 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main{
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form{
+  width: 80vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  border-radius: 20px;
+  border: 2px solid #FEBD59;
+  margin: 10%;
+  gap: 2vh;
+  padding: 20% 20px;
+}
+
+.form form{
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+  align-items: center;
+}
+
+form button{
+  width: 50vw;
+  height: 5vh;
+  border-radius: 20px;
+  border: 2px solid #FEBD59;
+  font-size: 1.5rem;
+  background-color: #474747;
+  color: #FEBD59;
+}
+
+#name,
+#email{
+  border-radius: 20px;
+  border: 2px solid #FEBD59;
+  padding: 20px;
+  width: 50vw;
+  font-size: 1.5rem;
+}
+h2 {
+  font-size: 3em;
+}
+h3 {
+  font-size: 1.9em;
+}
+a{
+  color: #FEBD59;
+}
+
+.problemas {
+  font-size: 1.5rem;
+}
+
+.informacao.checkbox{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.informacao.checkbox input{
+  width: 30px;
+  height: 30px;
+}
+
+
+@media (max-width: 490px){
+h2 {
+    font-size: 1.8rem;
+  }
+
+#name,
+#email{
+  padding: 10px;
+}
+
+
+.form{
+  font-size: 1.3rem;
+}
+
+.problemas{
+  font-size: 1rem;
+}
+
+form button{
+  font-size: 0.9rem;
+
+}
+
+}

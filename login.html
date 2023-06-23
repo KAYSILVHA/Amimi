@@ -5,7 +5,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./assets/css/global.css">
+  <link rel="stylesheet" href="./assets/css/login.css">
   <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon">
+  
   <title>AMIMI || Controlador de Sono</title>
 </head>
 <body>
@@ -16,24 +18,38 @@
     <nav id="nav">
       <button id="btn-mobile"><img src="./assets/images/menu.png" alt=""></button>
       <ul id="menu">
-        <li><a href="./login.html">LOGIN</a></li>
         <li><a href="./settings.html">SETTINGS</a></li>
         <li><a href="./ajuda.html">AJUDA</a></li>
         <li><a target="_blank" href="https://wa.me/554499716344?text=Ol%C3%A1+peguei+se+contato+no+site.+Preciso+de+ajuda.">FALE CONOSCO</a></li>
+        <li><a href="./index.html">HOME</a></li>
       </ul>
     </nav>
   </header>
+    </nav>
+  </header>
   <main>
-    <h1>Gráficos</h1>
-  </main>
-  <footer>
-    <div class="path">
-      <a class="p-path" href="./index.html"><img src="./assets/images/lua.svg" alt=""></a>
-      <a class="p-path" href="./musica.html"><img src="./assets/images/musica.svg" alt=""></a>
-      <a class="p-path cheked" href="./estatisticas.html"><img src="./assets/images/estatistica.svg" alt=""></a>
-      <a class="p-path" href="./aparelhos.html"><img src="./assets/images/internet.svg" alt=""></a>
+    <h2>Login</h2>
+    <div class="form">
+      <form>
+        <div class="informacao">
+          <label for="name">Nome: </label>
+          <input id="name" type="text" name="name" required>
+        </div>
+        <div class="informacao">
+          <label for="email">Email: </label>
+          <input id="email" type="email" name="email" required autocomplete="on">
+        </div>
+
+        <div class="informacao checkbox">
+          <input id="checked" type="checkbox" name="checked" checked>
+          <label for="checked">Lembrar de mim? </label>
+        </div>
+        <button type="submit">ENVIAR</button>
+      </form>
+      <p>Já tem conta? <span><a href="#">Sing Up</a></span></p>
     </div>
-  </footer>
+    <p class="problemas">Problemas? <a target="_blank" href="https://wa.me/554499716344?text=Ol%C3%A1+peguei+se+contato+no+site.+Preciso+de+ajuda.">FALE CONOSCO</a></p>
+  </main>
   <script src="./assets/js/index.js"></script>
 </body>
 </html>
