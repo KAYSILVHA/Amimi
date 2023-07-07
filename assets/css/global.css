@@ -117,13 +117,13 @@ footer .p-path img{
   #nav.active #menu{
     z-index: 1000;
     right: 5px;
-
     display: flex;
     flex-direction: column;
     background-color: #000;
     border: 1px solid #FEBD59;
     
   }
+
   #nav.active #menu li{
     border: 1px solid #FEBD59;
   }
@@ -178,7 +178,7 @@ footer .p-path img{
   footer{
     width: 100%;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     padding: 0;
     border-radius: none;
