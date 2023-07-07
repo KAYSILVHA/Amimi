@@ -14,7 +14,7 @@ main{
 
 .form{
   width: 80vw;
-  height: auto;
+  height: 50vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -25,6 +25,7 @@ main{
   margin: 10%;
   gap: 2vh;
   padding: 20% 20px;
+  background-color: #2B2B2B;
 }
 
 .form form{
@@ -36,7 +37,7 @@ main{
 }
 
 form button{
-  width: 50vw;
+  width: 40vw;
   height: 5vh;
   border-radius: 20px;
   border: 2px solid #FEBD59;
@@ -52,9 +53,11 @@ form button{
   padding: 20px;
   width: 50vw;
   font-size: 1.5rem;
+  background-color: #474747;
 }
 h2 {
   font-size: 3em;
+  text-transform: uppercase;
 }
 h3 {
   font-size: 1.9em;
