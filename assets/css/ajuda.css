@@ -7,14 +7,12 @@
 
 
 main{
-  width: 100vw;
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 2vh;
-  margin: 13% 0;
 }
 
 .info{
