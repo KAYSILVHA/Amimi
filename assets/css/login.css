@@ -13,13 +13,13 @@ main{
 }
 
 .form{
-  width: 80vw;
-  height: 50vh;
+  width: 85vw;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 2em;
+  font-size: 1.5em;
   border-radius: 20px;
   border: 2px solid #FEBD59;
   margin: 10%;

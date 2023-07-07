@@ -142,7 +142,7 @@ footer .p-path img{
   }
 
   #nav.active #menu a{
-    padding: 30px;
+    padding: 20px;
   }
 
   header{
@@ -164,15 +164,10 @@ footer .p-path img{
   #nav.active #menu{
     z-index: 1000;
     right: 5px;
-
     display: flex;
     flex-direction: column;
     background-color: #000;
     
-  }
-
-  .form{
-    heigth: 30vh;
   }
 
   footer{
