@@ -24,6 +24,8 @@ main{
   flex-direction: column;
   padding: 30px;
   gap: 15px;
+  justify-content: center;
+  align-items: center;
 }
 
 .title{
@@ -46,11 +48,11 @@ h3 {
   display: flex;
   flex-direction: column;
   gap: 30px;
-  align-items: center
+  align-items: center;
+  
 }
 
 .info ul li p{
-  width: 90%;
   font-size: 1.3em;
   text-align: justify;
 }
@@ -59,16 +61,15 @@ h3 {
   display: flex;
   width: 100%;
   height: auto;
-  padding: 30px;
-  justify-content: center;
-  gap: 20px;
+  padding: 30px 10px;
+  justify-content: space-around;
   flex-wrap: wrap
 }
 
 .img{
   border: 2px solid #FEBD59;
-  width: 75px;
-  height: 80px;
+  width: 70px;
+  height: 70px;
 }
 
 .img.logo{
