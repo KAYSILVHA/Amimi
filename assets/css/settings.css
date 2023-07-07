@@ -29,7 +29,7 @@ h3 {
 }
 
 .backup{
-  width: 100%;
+  width: 90vw;
   height: auto;
   background-color: #474747;
   padding: 25px;
@@ -42,7 +42,7 @@ h3 {
 }
 
 .definicoes{
-  width: 100%;
+  width: 90vw;
   height: auto;
   background-color: #474747;
   padding: 20px;
