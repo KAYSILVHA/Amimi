@@ -71,7 +71,7 @@ main{
 
 footer{
   position: fixed;
-  width: 100%;width: 100%;
+  width: 100%;
   height: auto;
   background-color: #000;
   border-top: 3px solid #FEBD59;
@@ -85,9 +85,9 @@ footer{
 footer .path{
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  padding: 30px 55px;
+  padding: 20px;
 }
 .p-path{
   width: 18%;
