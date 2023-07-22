@@ -1,32 +1,33 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 body{
-  background-color: #000;
-  color: #fff;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #060606;
+  font-family: 'Roboto', sans-serif;
+  color: white;
 }
 
+/* HEADER */
 header{
-  position: fixed;
-  top: 0;
-  width: 100%;
+  width: 100vw;
   height: 13vh;
+  position: relative;
+  top: 0;
   background-color: #000;
   border-bottom: 3px solid #FEBD59;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 0 15px;
+  z-index: 1000;
 }
 
 
 .logo {
-  width: 100px;
+  width: 20vw;
   height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .logo img{
@@ -41,42 +42,64 @@ header nav ul{
 }
 
 header nav ul a{
-  text-decoration: none;
   color: #FEBD59;
   display: block;
   padding: 30px;
 }
 
-main{
-  margin-top: 200px;
-  padding: 15vh 10px;
-  margin: 30px;
-}
 #btn-mobile{
-  display: none;
   background-color: transparent;
   border: none;
-  width: 70px;
-  height: 90px;
+  width: 14vw;
+  height: 8vh;
 }
 
 #btn-mobile img{
   width: 100%;
 }
 
-
 #nav ul{
   display: none;
 }
 
+#nav.active #menu{
+  z-index: 10000;
+  right: 5px;
+  display: flex;
+  flex-direction: column;
+  background-color: #000;
+  border: 1px solid #FEBD59;
+  
+}
+
+#nav.active #menu a{
+  padding: 10px;
+  font-size: 0.7em;
+}
+
+#menu{
+  position: absolute;
+}
+
+#nav.active #menu li{
+  border: 1px solid #FEBD59;
+}
+
+
+/*  */
+
+
+
+/* FOOTER */
+
 footer{
+  width: 100vw;
+  height: 20vh;
+  display: flex;
   position: fixed;
-  width: 100%;
-  height: auto;
   background-color: #000;
   border-top: 3px solid #FEBD59;
-  display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   bottom: 0;
   border-radius: 40px 40px 0px 0px;
@@ -84,14 +107,15 @@ footer{
 
 footer .path{
   width: 100%;
+  height: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   padding: 20px;
 }
 .p-path{
-  width: 18%;
-  height: 16%;
+  width: 15vw;
+  height: 10vh;
 }
 footer .p-path img{
   width: 100%;
@@ -104,132 +128,4 @@ footer .p-path img{
 }
 
 
-
-
-@media (max-width: 1280px){
-  #btn-mobile{
-    display: block;
-  }
-  #menu{
-    position: absolute;
-  }
-
-  #nav.active #menu{
-    z-index: 1000;
-    right: 5px;
-    display: flex;
-    flex-direction: column;
-    background-color: #000;
-    border: 1px solid #FEBD59;
-    
-  }
-
-  #nav.active #menu li{
-    border: 1px solid #FEBD59;
-  }
-}
-
-
-@media (max-width: 325px){
-  #btn-mobile{
-    display: block;
-    width: 80px;
-  }
-
-  #nav.active #menu{
-    font-size: 30px;
-    right: 8px;
-  }
-
-  #nav.active #menu a{
-    padding: 20px;
-  }
-
-  header{
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
-    width: 100%;
-    height: auto;
-  }
-  #btn-mobile{
-    display: block;
-    width: 40px;
-    height: 40px;
-  }
-  #menu{
-    position: absolute;
-  }
-
-  #nav.active #menu{
-    z-index: 1000;
-    right: 5px;
-    display: flex;
-    flex-direction: column;
-    background-color: #000;
-    
-  }
-
-  footer{
-    width: 100%;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    padding: 0;
-    border-radius: none;
-    border: 1px solid #FEBD59;
-  }
-  .p-path{
-    width: 150px;
-    height: 100px;
-  }
-  footer .p-path img{
-    width: 100%;
-    height: 100%;
-  }
-  
-  main{
-    margin-top: 10vh;
-  }
-}
-
-
-
-
-@media (max-width: 400px){
-  main{
-    font-size: 12px;
-  }
-
-  #btn-mobile{
-    display: block;
-    width: 40px;
-    height: 40px;
-
-  }
-  #menu{
-    position: absolute;
-  }
-
-  #nav.active #menu{
-    z-index: 1000;
-    right: 5px;
-    display: flex;
-    flex-direction: column;
-    background-color: #000;
-    
-  }
-
-  footer{
-    height: auto;
-  }
-  .p-path{
-    width: 60px;
-    height: 60px;
-  }
-  footer .p-path img{
-    width: 100%;
-    height: 100%;
-  }
-  
-}
+/*  */

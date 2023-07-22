@@ -1,45 +1,31 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-
-
 main{
-  height: 100vh;
+  width: 100vw;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 2vh;
+  color: white;
+  padding: 40px 0;
 }
 
 .info{
-  width: 90vw;
-  height: 90vh;
+  width: 85vw;
+  height: auto;
   border-radius: 20px;
   background-color: #474747;
   display: flex;
   flex-direction: column;
   padding: 30px;
-  gap: 15px;
   justify-content: center;
   align-items: center;
 }
 
-.title{
-  width: 100%;
-  text-align: center;
-  font-size: 3em;
-  text-transform: uppercase;
-  color: #FEBD59;
-}
 
 h3 {
-  font-size: 1.9em;
+  font-size: 1.5em;
   color: #FEBD59;
-  padding: 10px 30px;
+  padding: 10px ;
 }
 
 .info ul{
@@ -53,7 +39,7 @@ h3 {
 }
 
 .info ul li p{
-  font-size: 1.3em;
+  font-size: 1.1em;
   text-align: justify;
 }
 
@@ -73,25 +59,20 @@ h3 {
   height: 70px;
 }
 
-.img.logo{
-  border-radius: 30px;
-  border: none;
-}
-
 .problemas{
-  font-size: 1.5em;
+  font-size: 1.1em;
   width: 100%;
   text-align: center;
 }
 
 .problemas a{
-  text-decoration: none;
+  text-decoration: underline;
   color: #FEBD59;
 }
 
 span{
   color: #FEBD59;
-  font-size: 1.4em;
+  font-size: 1.2em;
 }
 
 img{

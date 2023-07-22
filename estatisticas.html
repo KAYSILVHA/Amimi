@@ -4,17 +4,28 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- css padrao -->
+  <link rel="stylesheet" href="./assets/css/responsivo.css.css">
+  <link rel="stylesheet" href="./assets/css/reset.css">
   <link rel="stylesheet" href="./assets/css/global.css">
-  <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon">
+  <!--  -->
+  <!-- CSS especifico -->
+  <link rel="stylesheet" href="./assets/css/estatiscas.css">
+  <!--  -->
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./assets/imagens/favicon.png" type="image/x-icon">
+  <!--  -->
+
   <title>AMIMI || Controlador de Sono</title>
 </head>
 <body>
   <header>
     <div class="logo">
-      <img src="./assets/images/logo.svg" alt="Logo" class="img-logo">
+      <img src="./assets/imagens/logo.svg" alt="Logo" class="img-logo">
     </div>
     <nav id="nav">
-      <button id="btn-mobile"><img src="./assets/images/menu.png" alt=""></button>
+      <button id="btn-mobile"><img src="./assets/imagens/menu.png" alt=""></button>
       <ul id="menu">
         <li><a href="./login.html">LOGIN</a></li>
         <li><a href="./settings.html">SETTINGS</a></li>
@@ -24,16 +35,87 @@
     </nav>
   </header>
   <main>
-    <h1>Gráficos</h1>
+    <section class="semana">
+      <div class="dia">
+        <h3>Dom</h3>
+        <div class="data" id="dom"></div>
+      </div>
+      <div class="dia">
+        <h3>Seg</h3>
+        <div class="data" id="seg"></div>
+      </div>
+      <div class="dia">
+        <h3>Ter</h3>
+        <div class="data" id="ter"></div>
+      </div>
+      <div class="dia">
+        <h3>Quar</h3>
+        <div class="data" id="quar"></div>
+      </div>
+      <div class="dia">
+        <h3>Quin</h3>
+        <div class="data" id="quin"></div>
+      </div>
+      <div class="dia">
+        <h3>Sex</h3>
+        <div class="data" id="sex"></div>
+      </div>
+      <div class="dia">
+        <h3>Sab</h3>
+        <div class="data" id="sab"></div>
+      </div>
+    </section>
+    <section class="grafico">
+      <div class="lateral">
+        <div class="diaHoje">
+          <h4>Hoje</h4>
+          <p id="diaDeHoje"></p>
+        </div>
+        <div class="barra">
+          <div class="carregado"></div>
+        </div>
+      </div>
+      <div class="barraGrafico">
+        <h3>Título</h3>
+        <div class="graficos">
+          <div class="barrinha1" id="barrinha1"></div>
+          <div class="barrinha2" id="barrinha2"></div>
+          <div class="barrinha3" id="barrinha3"></div>
+          <div class="barrinha4" id="barrinha4"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="dias-armazenados">
+      <div class="hoje-armazenado">
+        <div class="dia-armazenado" id="hoje-armazenado">
+          <p>Dia:</p>
+        </div>
+        <div class="horas-dormidas">
+          <p>Horas dormidas: </p>
+        </div>
+        <div class="status"></div>
+      </div>
+      <div class="ontem-armazenado">
+        <div class="dia-armazenado" id="ontem-armazenado">
+          Dia:
+        </div>
+        <div class="horas-dormidas">
+          <p>Horas dormidas: </p>
+        </div>
+        <div class="status"></div>
+      </div>
+    </section>
   </main>
   <footer>
     <div class="path">
-      <a class="p-path" href="./index.html"><img src="./assets/images/lua.svg" alt=""></a>
-      <a class="p-path" href="./musica.html"><img src="./assets/images/musica.svg" alt=""></a>
-      <a class="p-path cheked" href="./estatisticas.html"><img src="./assets/images/estatistica.svg" alt=""></a>
-      <a class="p-path" href="./aparelhos.html"><img src="./assets/images/internet.svg" alt=""></a>
+      <a class="p-path" href="./relogio.html"><img src="./assets/imagens/lua.svg" alt=""></a>
+      <a class="p-path" href="./musica.html"><img src="./assets/imagens/musica.svg" alt=""></a>
+      <a class="p-path cheked" href="./estatisticas.html"><img src="./assets/imagens/estatistica.svg" alt=""></a>
+      <a class="p-path" href="./aparelhos.html"><img src="./assets/imagens/internet.svg" alt=""></a>
     </div>
   </footer>
   <script src="./assets/js/index.js"></script>
+  <script src="./assets/js/descobrindoDiaDaSemana.js"></script>
 </body>
 </html>

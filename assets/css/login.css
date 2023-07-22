@@ -1,15 +1,12 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 main{
+  width: 100vw;
   height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: white;
+  padding: 20px 0;
 }
 
 .form{
@@ -19,17 +16,16 @@ main{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 1.5em;
+  font-size: 1.3em;
   border-radius: 20px;
   border: 2px solid #FEBD59;
   margin: 10%;
   gap: 2vh;
-  padding: 20% 20px;
+  padding: 40px 20px;
   background-color: #2B2B2B;
 }
 
 .form form{
-  flex-wrap: wrap;
   display: flex;
   flex-direction: column;
   gap: 2vh;
@@ -37,11 +33,11 @@ main{
 }
 
 form button{
-  width: 40vw;
-  height: 5vh;
+  width: 70%;
+  padding: 10px;
   border-radius: 20px;
   border: 2px solid #FEBD59;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   background-color: #474747;
   color: #FEBD59;
 }
@@ -50,24 +46,23 @@ form button{
 #email{
   border-radius: 20px;
   border: 2px solid #FEBD59;
-  padding: 20px;
-  width: 50vw;
+  padding: 10px;
+  width: 100%;
   font-size: 1.5rem;
   background-color: #474747;
 }
-h2 {
-  font-size: 3em;
-  text-transform: uppercase;
-}
+
 h3 {
-  font-size: 1.9em;
+  font-size: 1.5em;
 }
-a{
+
+main a{
   color: #FEBD59;
+  text-decoration: underline;
 }
 
 .problemas {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .informacao.checkbox{
@@ -78,33 +73,7 @@ a{
 }
 
 .informacao.checkbox input{
-  width: 30px;
+  width: 6vw;
   height: 30px;
 }
 
-
-@media (max-width: 490px){
-h2 {
-    font-size: 1.8rem;
-  }
-
-#name,
-#email{
-  padding: 10px;
-}
-
-
-.form{
-  font-size: 1.3rem;
-}
-
-.problemas{
-  font-size: 1rem;
-}
-
-form button{
-  font-size: 0.9rem;
-
-}
-
-}
