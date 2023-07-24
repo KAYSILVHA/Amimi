@@ -96,12 +96,12 @@ main .habits{
 }
 
 .title-habits h2{
-  font-size: 1.2em;
+  font-size: 1.4em;
 }
 
 
 .habits img{
-  max-width: 20vw;
+  max-width: 15vw;
   max-height: 12vh;
   margin-right: 10px;
 }
