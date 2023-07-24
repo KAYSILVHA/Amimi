@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
 body{
   background-image: url('../imagens/background.png');
   display: flex;
@@ -61,6 +62,7 @@ main .habits{
 .first h1{
   font-size: 1.9em;
   text-align: center;
+  font-family: 'Irish Grover', cursive;
 }
 
 .first #dataDoHtml{
@@ -72,6 +74,8 @@ main .habits{
   align-items: center;
   font-size: 2em;
   width: 100%;
+  font-family: 'Irish Grover', cursive;
+  letter-spacing: 3px;
 }
 
 
@@ -97,6 +101,8 @@ main .habits{
 
 .title-habits h2{
   font-size: 1.4em;
+  font-family: 'Irish Grover', cursive;
+  letter-spacing: 3px;
 }
 
 
