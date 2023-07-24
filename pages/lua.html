@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,14 +11,15 @@
   <link rel="stylesheet" href="../assets/css/global.css">
   <!--  -->
   <!-- CSS especifico -->
-  <link rel="stylesheet" href="../assets/css/">
+  <link rel="stylesheet" href="../assets/css/lua.css">
   <!--  -->
   <!-- Favicon -->
   <link rel="shortcut icon" href="../assets/imagens/favicon.png" type="image/x-icon">
   <!--  -->
-  
+
   <title>AMIMI || Controlador de Sono</title>
 </head>
+
 <body>
   <header>
     <div class="logo">
@@ -29,22 +31,47 @@
         <li><a href="./login.html">LOGIN</a></li>
         <li><a href="./settings.html">SETTINGS</a></li>
         <li><a href="./ajuda.html">AJUDA</a></li>
-        <li><a target="_blank" href="https://wa.me/554499716344?text=Ol%C3%A1+peguei+se+contato+no+site.+Preciso+de+ajuda.">FALE CONOSCO</a></li>
+        <li><a target="_blank"
+            href="https://wa.me/554499716344?text=Ol%C3%A1+peguei+se+contato+no+site.+Preciso+de+ajuda.">FALE
+            CONOSCO</a></li>
       </ul>
     </nav>
   </header>
   <main>
-    <h1>API DO SPOTY</h1>
+    <section class="first">
+      <img id="fase-da-lua" src="" alt="Lua">
+      <h1>Estamos em <span id="luaDeHoje"></span></h1>
+      <p id="dataDoHtml">Dia/Mes/Ano</p>
+    </section>
+    <section class="description" id="description">
+      <div class="title-description">
+        <img src="../assets/imagens/lua-cheia.png" alt="" id="luaImg">
+        <h2 id="luaDescription">Lua</h2>
+      </div>
+      <p id="p-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus quod culpa ratione?
+        Fuga quas placeat ratione, deleniti id earum aliquam quisquam adipisci doloremque sapiente laboriosam. Nam est
+        delectus tempore quaerat!</p>
+    </section>
+    <section class="habits" id="habits">
+      <div class="title-habits">
+        <img src="../assets/imagens/gatinho.png" alt="Gatinho">
+        <h2>Hábitos recomendados</h2>
+      </div>
+      <div id="habits-description">
+      </div>
+    </section>
   </main>
   <footer>
     <div class="path">
       <a class="p-path" id="relogio" href="../relogio.html"><img src="../assets/imagens/relogio.png" alt=""></a>
-      <a class="p-path cheked" href="./musica.html"><img src="../assets/imagens/musica.svg" alt=""></a>
+      <a class="p-path" href="./musica.html"><img src="../assets/imagens/musica.svg" alt=""></a>
       <a class="p-path" href="./estatisticas.html"><img src="../assets/imagens/estatistica.svg" alt=""></a>
       <a class="p-path" href="./aparelhos.html"><img src="../assets/imagens/internet.svg" alt=""></a>
-      <a class="p-path" href="./lua.html"><img src="../assets/imagens/lua.svg" alt=""></a>
+      <a class="p-path cheked" href="./lua.html"><img src="../assets/imagens/lua.svg" alt=""></a>
     </div>
   </footer>
+  <script src="../assets/js/lua.js"></script>
   <script src="../assets/js/index.js"></script>
 </body>
+
 </html>

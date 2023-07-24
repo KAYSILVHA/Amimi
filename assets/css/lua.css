@@ -1,0 +1,160 @@
+body{
+  background-image: url('../imagens/background.png');
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+header{
+  position: fixed;
+}
+
+main{
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20vh;
+  margin-top: 13vh;
+}
+
+main .description,
+main .habits{
+  border: 2px solid #FF9900;
+  width: 90%;
+  height: auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: black;
+}
+
+
+.description{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.first{
+  width: 100vw;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 10px;
+}
+
+.first img{
+  max-width: 20vw;
+  max-height: 10vh;
+}
+
+.first h1{
+  font-size: 1.9em;
+  text-align: center;
+}
+
+.first #dataDoHtml{
+  font-size: 1.3em;
+}
+
+.description .title-description{
+  display: flex;
+  align-items: center;
+  font-size: 2em;
+  width: 100%;
+}
+
+
+#p-description{
+  margin: 10px;
+  font-size: 1.6em;
+  text-align: justify-content;
+}
+
+.description img{
+  max-width: 18vw;
+  max-height: 10vh;
+  margin-right: 10px;
+}
+
+
+.title-habits {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+
+.title-habits h2{
+  font-size: 1.2em;
+}
+
+
+.habits img{
+  max-width: 20vw;
+  max-height: 12vh;
+  margin-right: 10px;
+}
+
+
+.clicked{
+  height: auto;
+}
+
+
+.habits-description-modific{
+  width: 100%;
+  padding: 20px 0;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+}
+
+.habits-description-modific h3{
+  font-size: 1.8em;
+}
+
+.habits-description-modific p{
+  font-size: 1.6em;
+  text-align: justify-content;
+}
+
+@media(max-width: 476px){
+  
+  main section{
+    min-width: 85%;
+  }
+
+  .description .title-description{
+    font-size: 0.9em;
+  }
+
+  .title-habits {
+    font-size: 0.9em;
+  }
+
+
+  #p-description{
+    font-size: 1em;
+  }
+  
+
+  #habits-description h3{
+    font-size: 1.1em;
+  }
+  
+  #habits-description p{
+    font-size: 0.9em;
+  }
+}
