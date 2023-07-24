@@ -27,7 +27,7 @@ main{
 
 main .description,
 main .habits{
-  border: 2px solid #FF9900;
+  border: 2px solid #FFBF5B;
   width: 90%;
   height: auto;
   padding: 20px;
@@ -52,17 +52,20 @@ main .habits{
   align-items: center;
   padding: 20px;
   gap: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .first img{
   max-width: 20vw;
   max-height: 10vh;
+  filter: drop-shadow(0 0 10px #f5fff8);
 }
 
 .first h1{
   font-size: 1.9em;
   text-align: center;
   font-family: 'Irish Grover', cursive;
+  filter: drop-shadow(0 0 10px #f5fff8);
 }
 
 .first #dataDoHtml{
@@ -78,6 +81,10 @@ main .habits{
   letter-spacing: 3px;
 }
 
+.description .title-description h2{
+  filter: drop-shadow(0 0 10px #f5fff8);
+}
+
 
 #p-description{
   margin: 10px;
@@ -89,6 +96,7 @@ main .habits{
   max-width: 18vw;
   max-height: 10vh;
   margin-right: 10px;
+  filter: drop-shadow(0 0 10px #f5fff8);
 }
 
 
@@ -97,12 +105,14 @@ main .habits{
   align-items: center;
   width: 100%;
   justify-content: center;
+
 }
 
 .title-habits h2{
   font-size: 1.4em;
   font-family: 'Irish Grover', cursive;
   letter-spacing: 3px;
+  filter: drop-shadow(0 0 10px #f5fff8);
 }
 
 
@@ -110,6 +120,7 @@ main .habits{
   max-width: 15vw;
   max-height: 12vh;
   margin-right: 10px;
+  filter: drop-shadow(0 0 10px #FFBF5B);
 }
 
 
