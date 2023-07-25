@@ -1,0 +1,76 @@
+header{
+  position: fixed;
+}
+
+main{
+  margin-top: 15vh;
+  margin-bottom: 20vh;
+  width: 100vw;
+  height: calc(100% - 10vh);
+  display: flex;
+  flex-direction: column;
+  color: #FEBD59;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+main h1{
+  width: 100%;
+  padding-left: 20px;
+}
+
+.escolha{
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.escolha .sons{
+  background-color: #a0a0a070;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.escolha a{
+  color: #FEBD59;
+}
+
+.sonsSelecionado{
+  background-color: #a0a0a050;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.musicas{
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  height: auto;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.musica{
+  width: 25vw;
+  height: 90px;
+  background-color: red;
+  border-radius: 10px;
+  border: 2px solid #FFBF5B;
+}
+
+.musica img{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.relaxar,
+.sono,
+.chuva{
+  display: none;
+}
