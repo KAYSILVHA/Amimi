@@ -28,7 +28,7 @@ main h1{
   padding: 10px;
 }
 
-.escolha .sons{
+.sons{
   background-color: #a0a0a070;
   padding: 10px;
   border-radius: 10px;
@@ -72,5 +72,10 @@ main h1{
 .relaxar,
 .sono,
 .chuva{
+  display: none;
+}
+
+
+.todosDesativar{
   display: none;
 }
