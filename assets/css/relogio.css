@@ -1,0 +1,132 @@
+header{
+  position: fixed;
+}
+
+main{
+  margin-top: 15vh;
+  margin-bottom: 20vh;
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  color: #FEBD59;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+
+.alarm-container {
+  width: 85vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  flex-direction: column;
+  background: #80808020;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  color: #fff;
+  margin: 10px;
+  padding: 20px;
+}
+
+.alarm-container .img {
+  background: #90909040;
+  width: 40vw;
+  height: 20vh;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.alarm-container h1 {
+  font-size: 25px;
+  font-weight: 500;
+  margin: 30px 0;
+  border-radius: 5px;
+  box-shadow: 0 10px 25px #FEBD5950;
+  padding: 10px;
+  color: rgb(245, 245, 245);
+}
+
+.container .content {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+}
+.content.disable {
+  cursor: no-drop;
+}
+
+.container .content .alarm-controls {
+  width: 80vw;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10px;
+  border-radius: 5px;
+  border: 1px solid #FEBD59;
+  height: 50px;
+  margin: 10px;
+}
+
+.content.disable .alarm-controls {
+  opacity: 0.6;
+  pointer-events: none;
+  
+}
+
+.container .content select {
+  width: 20vw;
+  margin: -10px;
+  border: none;
+  background: transparent;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px;
+  color: rgb(245, 245, 245);
+}
+
+.container .content select option {
+  width: 100%;
+  border: none;
+  background: transparent;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 5px;
+  color: #000;
+}
+
+.container button {
+  width: 80vw;
+  border: none;
+  font-size: 18px;
+  font-weight: bolder;
+  padding: 17px 0;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: 3px solid #FEBD59;
+  color: #FEBD59;
+  background: transparent;
+}
+
+
+.background-img{
+  width: 80%;
+  height: 80%;
+  background-color: black;
+  border-radius: 100%;
+  background-image: url('../imagens/Ellipse 5.png');
+  background-size: 100% 100%;
+  background-position: center;
+  border: 1px solid #FEBD59;
+}
