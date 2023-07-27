@@ -50,7 +50,7 @@ main{
   border-radius: 100%;
   background-color: #FEBD59;
   color: #000;
-  border: 3px solid #f1f1f0;
+  border: 3px solid #80808060;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -124,8 +124,41 @@ main{
 .graficos div{
   width: 20%;
   height: 98%;
-  background-color: #FEBD59;
+  border: 2px solid #FEBD59;
 }
+
+.barrinha1 .carregamento-barrinha-um,
+.barrinha2 .carregamento-barrinha-dois,
+.barrinha3 .carregamento-barrinha-tres,
+.barrinha4 .carregamento-barrinha-quatro{
+  border: none;
+  width: 100%;
+}
+
+.barrinha1 .carregamento-barrinha-um{
+  height: 50%;
+  background-color: #FEBD59;
+  margin-top: 72px;
+}
+
+.barrinha2 .carregamento-barrinha-dois{
+  height: 60%;
+  background-color: #FEBD59;
+  margin-top: 58px;
+}
+
+.barrinha3 .carregamento-barrinha-tres{
+  height: 30%;
+  background-color: #FEBD59;
+  margin-top: 102px;
+}
+
+.barrinha4 .carregamento-barrinha-quatro{
+  height: 90%;
+  background-color: #FEBD59;
+  margin-top: 13px;
+}
+
 
 .dias-armazenados{
   display: flex;
@@ -160,6 +193,7 @@ main{
 }
 
 .horas-dormidas{
+  text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -169,7 +203,7 @@ main{
 
 .carregado{
   width: 100%;
-  height: 12px;
+  height: 100px;
   border: 2px solid #f1f1f0;
   background-color:  #FEBD59;
   border-bottom-left-radius: 10px;

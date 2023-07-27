@@ -39,8 +39,8 @@ main{
 
 .alarm-container .img {
   background: #90909040;
-  width: 40vw;
-  height: 20vh;
+  width: 35vw;
+  height: 18vh;
   border-radius: 50%;
   display: flex;
   justify-content: center;
