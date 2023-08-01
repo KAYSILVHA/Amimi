@@ -12,8 +12,6 @@ let habitsMudar = document.getElementById('habits-description');
 habits.addEventListener('click', () =>{
   mudancaDeHabitos();
 })
-
-
 let { anoDoisUltimosDigitos, dia, mes } = descobrindoData();
 descobrindoLuaEAlterandoInfo();
 
