@@ -26,19 +26,19 @@ function mudancaDeHabitos() {
     habitsMudar.innerHTML = `
     <h3>Relaxamento em geral</h3>
     <p>
-      1) Tenha uma rotina de sono
+      1) Tenha uma rotina de sono: 
       Estabelecer uma rotina noturna consistente, com atividades repetidas diariamente, sinaliza ao cérebro a hora de relaxar e dormir, sendo altamente recomendado.
     </p>
     <p>
-      2) Tome um banho quente e relaxante
+      2) Tome um banho quente e relaxante: 
       Banhos quentes relaxam os músculos, promovendo um sono profundo, tornando-os benéficos para o descanso noturno.
     </p>
     <p>
-      3) Respire profundamente
+      3) Respire profundamente: 
       A respiração profunda, ao exigir concentração e oxigenar o cérebro, tem um poderoso efeito relaxante. Isso acalma a mente, reduzindo o enrijecimento muscular associado à ansiedade e preocupação.
     </p>
     <p>
-      4) Medite
+      4) Medite: 
       A meditação utiliza a respiração profunda para ajudar a limpar a mente de preocupações e ansiedades, favorecendo um sono mais profundo. (Você pode usar os sons do no app se quiser)
     </p>`;
 
@@ -48,21 +48,21 @@ function mudancaDeHabitos() {
     habitsMudar.innerHTML = `
     <h3>Redução de Cortisol e aumento da Melatonina</h3>
   <p>
-    1) Hidrate-se corretamente
+    1) Hidrate-se corretamente: 
     Tomar água regularmente e manter o corpo hidratado são ótimos para evitar os efeitos indesejados do aumento do cortisol
   </p>
   
   <p>
-    2) Não durma num ambiente muito claro
+    2) Não durma num ambiente muito claro: 
     Um ambiente com baixa luminosidade favorece um sono mais profundo e restaurador, contribuindo para o equilíbrio do ciclo circadiano
   </p>
 
   <p>
-    3) Anote as tarefas do dia seguinte
+    3) Anote as tarefas do dia seguinte: 
     Bom para pessoas agitadas. Fazer uma lista de afazeres para o dia seguinte antes de dormir tranquiliza o cérebro ao garantir que as tarefas foram registradas. Isso permite um relaxamento mais profundo durante o sono.
   </p>
   <p>
-  4) Escreva as preocupações
+  4) Escreva as preocupações: 
   Manter um diário para escrever as preocupações ajuda a liberar os pensamentos da mente, assim como a meditação.
   </p>`;
   } else if (conta >= 15 && conta < 21) {
@@ -71,15 +71,15 @@ function mudancaDeHabitos() {
     habitsMudar.innerHTML = `
     <h3>Relaxe e cuide da Saúde</h3>
   <p>
-    1) Não durma num ambiente muito claro
+    1) Não durma num ambiente muito claro: 
     Um ambiente com baixa luminosidade favorece um sono mais profundo e restaurador, contribuindo para o equilíbrio do ciclo circadiano.
   </p>
     <p>
-      2) Coma certos alimentos antes de dormir
+      2) Coma certos alimentos antes de dormir: 
       Nozes, frutas como kiwi, banana, ameixa seca e morango, laticínios e aveia são alguns exemplos.
     </p>
   <p>
-    3) Diminuir a cafeína
+    3) Diminuir a cafeína: 
     Ao reduzir o consumo, é possível equilibrar os níveis de cortisol e promover uma resposta mais saudável ao estresse.
   </p>`;
   } else if (conta >= 21 && conta <= 28) {
@@ -88,16 +88,16 @@ function mudancaDeHabitos() {
     habitsMudar.innerHTML = `
     <h3>Relaxe e cuide da Saúde</h3>
   <p>
-    1) Não durma num ambiente muito claro
+    1) Não durma num ambiente muito claro:
     Um ambiente com baixa luminosidade favorece um sono mais profundo e restaurador, contribuindo para o equilíbrio do ciclo circadiano.
   </p>
   <p>
-      2) Coma certos alimentos antes de dormir
+      2) Coma certos alimentos antes de dormir: 
       Nozes, frutas como kiwi, banana, ameixa seca e morango, laticínios e aveia são alguns exemplos
   </p>
 
   <p>
-    3) Diminuir a cafeína
+    3) Diminuir a cafeína: 
     Ao reduzir o consumo, é possível equilibrar os níveis de cortisol e promover uma resposta mais saudável ao estresse.
   </p>`;
   }
